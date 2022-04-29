@@ -1,0 +1,33 @@
+{
+  "name": "evm_web3_intro",
+  "version": "1.0.0",
+  "description": "Learning web3 using evm based framework hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narenandu/evm_web3_intro.git"
+  },
+  "keywords": [
+    "evm",
+    "web3",
+    "blockchain",
+    "contract"
+  ],
+  "author": "narenandu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narenandu/evm_web3_intro/issues"
+  },
+  "homepage": "https://github.com/narenandu/evm_web3_intro#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^4.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.3"
+  }
+}
